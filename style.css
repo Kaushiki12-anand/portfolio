@@ -1,0 +1,251 @@
+body{
+    margin: 0%;
+    padding: 0%;
+}
+.sidebar{
+    width: 20%;
+    height: 100vh;
+padding-top: 70px;
+overflow: auto;
+background-image: linear-gradient(315deg, #2b4162 0%, #12100e 74%);
+background-size: cover;
+background-repeat: repeat;
+}
+.main-content{
+    width: 80%;
+    height: 100vh;
+padding: 100px;
+color: white;
+background-image: linear-gradient(315deg, #2b4162 0%, #12100e 74%);
+background-size: cover;
+background-repeat: repeat;
+}
+.new-content{
+    background-image: url(img/khushi\ -\ Copy.jpg) !important;
+    background-size: cover;
+}
+.nav-link{
+    color: white !important;
+    padding: 30px;
+    font-family: 'Merriweather', serif;
+    font-size: 25px;
+    display: inline-block;
+}
+.new{
+    margin-top: 30px;
+}
+.main{
+    display: flex;
+}
+.main-image{
+    border-radius: 70px;
+    width: 450px;
+    height: 550px;
+    box-shadow: 10px 10px 7px black;
+}
+.home-content{
+    text-align: center;
+    justify-content: left;
+    font-family: 'Playfair Display', serif;
+}
+.new-col{
+    margin-left: 570px;
+}
+.text{
+    text-shadow: 3px 3px 8px black;
+}
+.about-head{
+    font-size: 60px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    text-decoration-line: underline;
+    text-decoration-style: unset;
+    text-decoration-color: #B2FFFF;
+    color: white;
+    text-decoration-thickness: 5px;
+}
+.about-para{
+    font-size: 26px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.about-list{
+    list-style-type: none;
+    display: inline-block;
+    text-align: left;
+    padding: 0px;
+    font-size: 25px;
+}
+.title-list{
+    margin-right: 35px;
+    display: inline-block;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 600;
+}
+.value{
+    margin-left: 20px;
+    font-weight: 100;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.about-list li .title-list:after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-color: #B2FFFF;
+}
+.fa-solid{
+    color: white !important;
+    display: inline-block;
+}
+.info{
+    display: flex;
+    flex-flow: row wrap;
+    margin-top: 40px;
+}
+.logo1{
+    display: inline-block;
+}
+.edu-img{
+    height: 130px;
+    width: 125px;
+    border-radius: 20px;
+}
+.info1{
+    display: inline-block;
+    margin-left: 20px;
+    font-size: 20px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+/*skill-section-css*/
+.ski-title{
+    font-family: 'Hedvig Letters Serif', serif;
+    text-decoration-line: underline;
+    text-decoration-style: unset;
+    text-decoration-color: #B2FFFF;
+    font-size: 30px;
+}
+.ski-title-list{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 25px;
+    list-style-type: none;
+}
+.skill-container {
+    border: 2px solid #B2FFFF;
+    border-radius: 8px;
+    height: 14px;
+    margin-bottom: 12px;
+    width: 100%;
+}
+.skill-percentage {
+    background-color: #B2FFFF;
+    border: 2px solid #fff;
+    border-radius: 9px;
+    height: 10px;
+    padding: 0;
+}
+.skill1{
+    width: 50%;
+}
+.skill2{
+    width: 80%;
+}
+.skill3{
+    width: 70%;
+}
+.skill4{
+    width: 80%;
+}
+.skill5{
+    width: 30%;
+}
+.skill6{
+    width: 75%;
+}
+.con-form{
+    border-style: outset;
+    padding: 30px;
+    border-color: #B2FFFF;
+    border-radius: 10px;
+}
+input{
+    border-radius: 10px;
+    height: 30px;
+    width: 270px;
+}
+label{
+    font-size: 20px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 600;
+}
+textarea{
+    border-radius: 10px;
+    height: 120px;
+    width: 300px;
+    resize: none;
+}
+.con-title{
+    font-family: 'Hedvig Letters Serif', serif;
+    font-size: 25px;
+}
+#submit{
+    height: 60px !important;
+    width: 200px !important;
+    background-color: #B2FFFF;
+    font-size: 20px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 700;
+}
+.btn{
+    background-color: #B2FFFF;
+    height: 70px;
+    width: 200px;
+    font-size: 25px;
+    padding: 10px;
+    border-color: black;
+    border-style: unset;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 700;
+    margin-left: 10px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+#analog-clock{
+    background-image: url(img/clock.jpeg);
+}
+.overlay:hover{
+    background-color: #B2FFFF;
+    height: 300px;
+    width: 270px;
+    opacity: 0.6;
+    display: flex;
+    border-radius: 10px;
+    border-style: outset;
+}
+.fa-download{
+    border-radius: 50%;
+    padding: 10px;
+    background-color: #12100e;
+    height: 70px;
+    width: 70px;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 124px;
+    margin-left: 100px;
+    color: #2b4162 !important;
+}
+#dog-pro{
+    background-image: url(img/3487425.jpg);
+}
+#sticky-nav{
+    background-image: url(img/stickynav.jpg);
+}
+.filterDiv{
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 270px;
+    border-radius: 10px;
+    border-style: outset;
+    border-color: #B2FFFF;
+}
