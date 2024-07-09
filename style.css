@@ -166,6 +166,18 @@ background-repeat: repeat;
     border-color: #B2FFFF;
     border-radius: 10px;
 }
+.btn{
+    background-color: #B2FFFF;
+    height: 70px;
+    width: 200px;
+    font-size: 25px;
+    padding: 10px;
+    border-color: black;
+    border-style: unset;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 700;
+    margin-left: 10px;
+}
 input{
     border-radius: 10px;
     height: 30px;
